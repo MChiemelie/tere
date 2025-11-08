@@ -1,0 +1,14 @@
+{
+  "name": "tere",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "test": "node ./scripts/check.js",
+    "ci": "npm run build && npm test"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "tailwindcss": "^4.1.16"
+  }
+}

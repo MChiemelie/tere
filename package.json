@@ -1,14 +1,30 @@
 {
   "name": "tere",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A ride sharing app",
+  "keywords": [
+    "ride",
+    "sharing",
+    "app"
+  ],
+  "homepage": "https://github.com/MChiemelie/tere#readme",
+  "bugs": {
+    "url": "https://github.com/MChiemelie/tere/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MChiemelie/tere.git"
+  },
+  "license": "MIT",
+  "author": "Chiemelie Melikam",
+  "type": "module",
+  "main": "./src/index.html",
   "scripts": {
-    "build": "node ./scripts/build.js",
-    "test": "node ./scripts/check.js",
-    "ci": "npm run build && npm test"
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.16",
-    "tailwindcss": "^4.1.16"
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
   }
 }

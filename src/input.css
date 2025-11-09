@@ -17,7 +17,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("/fonts/gilroy/Gilroy-Light.ttf") format("truetype");
+  src: url("fonts/gilroy/Gilroy-Light.ttf") format("truetype");
 }
 
 @font-face {
@@ -25,7 +25,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
+  src: url("fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -33,7 +33,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("/fonts/gilroy/Gilroy-Medium.ttf") format("truetype");
+  src: url("fonts/gilroy/Gilroy-Medium.ttf") format("truetype");
 }
 
 @font-face {
@@ -41,7 +41,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("/fonts/gilroy/Gilroy-SemiBold.ttf") format("truetype");
+  src: url("fonts/gilroy/Gilroy-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
@@ -49,7 +49,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("/fonts/gilroy/Gilroy-Bold.ttf") format("truetype");
+  src: url("fonts/gilroy/Gilroy-Bold.ttf") format("truetype");
 }
 
 @font-face {
@@ -57,7 +57,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url("/fonts/gilroy/Gilroy-ExtraBold.ttf") format("truetype");
+  src: url("fonts/gilroy/Gilroy-ExtraBold.ttf") format("truetype");
 }
 
 html, body {
